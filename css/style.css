@@ -952,8 +952,8 @@ form label {
   display: inline-block;
   /* width: 100px;
   height: 100px; */
-  width: clamp(60px, 18vw, 100px); 
-  height: clamp(60px, 18vw, 100px);
+  width: clamp(90px, 18vw, 100px); 
+  height: clamp(90px, 18vw, 100px);
   background: rgba(241, 78, 149, 0.8);
   margin: 0 4px;
   -webkit-border-radius: 50%;
@@ -981,8 +981,8 @@ form label {
   vertical-align: middle;
   /*height: 100px;
   width: 100px; */
-  width: clamp(60px, 18vw, 100px); 
-  height: clamp(60px, 18vw, 100px);
+  width: clamp(90px, 18vw, 100px); 
+  height: clamp(90px, 18vw, 100px);
 }
 
 .simply-countdown > .simply-section .simply-amount,
