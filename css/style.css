@@ -950,10 +950,10 @@ form label {
 .simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
-  /* width: 100px;
-  height: 100px; */
-  width: clamp(70px, 18vw, 100px); 
-  height: clamp(70px, 18vw, 100px);
+  width: 100px;
+  height: 100px;
+  /* width: clamp(70px, 18vw, 100px); 
+  height: clamp(70px, 18vw, 100px); */
   background: rgba(241, 78, 149, 0.8);
   margin: 0 4px;
   -webkit-border-radius: 50%;
@@ -979,10 +979,10 @@ form label {
   /* countdown block inner div */
   display: table-cell;
   vertical-align: middle;
-  /*height: 100px;
-  width: 100px; */
-  width: clamp(70px, 18vw, 100px); 
-  height: clamp(70px, 18vw, 100px);
+  height: 100px;
+  width: 100px;
+  /* width: clamp(70px, 18vw, 100px); 
+  height: clamp(70px, 18vw, 100px); */
 }
 
 .simply-countdown > .simply-section .simply-amount,
