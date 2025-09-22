@@ -5,13 +5,6 @@
   background-repeat: no-repeat !important;
 }
 
-#fh5co-header.fh5co-cover {
-  /* Center and cover the background image on all screens */
-  background-position: center center !important;
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
-}
-
 /* Countdown styles for tablets and small desktops */
 @media screen and (max-width: 768px) {
   .simply-countdown > .simply-section {
@@ -24,28 +17,28 @@
     height: 70px;     /* Inner div height */
   }
   .simply-countdown > .simply-section .simply-amount {
-    font-size: 18px;  /* Countdown number size */
+    font-size: 20px;  /* Countdown number size */
   }
   .simply-countdown > .simply-section .simply-word {
-    font-size: 9px;  /* Countdown label size */
+    font-size: 10px;  /* Countdown label size */
   }
 }
 
 /* Countdown styles for mobile phones */
 @media screen and (max-width: 480px) {
   .simply-countdown > .simply-section {
-    width: 44px;      /* Circle width */
-    height: 44px;     /* Circle height */
-    margin: 0 1px;    /* Space between circles */
+    width: 48px;      /* Circle width */
+    height: 48px;     /* Circle height */
+    margin: 0 2px;    /* Space between circles */
   }
   .simply-countdown > .simply-section > div {
-    width: 44px;      /* Inner div width */
-    height: 44px;     /* Inner div height */
+    width: 48px;      /* Inner div width */
+    height: 48px;     /* Inner div height */
   }
   .simply-countdown > .simply-section .simply-amount {
-    font-size: 12px;  /* Countdown number size */
+    font-size: 13px;  /* Countdown number size */
   }
   .simply-countdown > .simply-section .simply-word {
-    font-size: 6px;   /* Countdown label size */
+    font-size: 7px;   /* Countdown label size */
   }
 }
