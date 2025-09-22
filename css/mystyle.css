@@ -24,7 +24,7 @@
     height: 70px;     /* Inner div height */
   }
   .simply-countdown > .simply-section .simply-amount {
-    font-size: 16px;  /* Countdown number size */
+    font-size: 18px;  /* Countdown number size */
   }
   .simply-countdown > .simply-section .simply-word {
     font-size: 9px;  /* Countdown label size */
@@ -43,7 +43,7 @@
     height: 44px;     /* Inner div height */
   }
   .simply-countdown > .simply-section .simply-amount {
-    font-size: 10px;  /* Countdown number size */
+    font-size: 12px;  /* Countdown number size */
   }
   .simply-countdown > .simply-section .simply-word {
     font-size: 6px;   /* Countdown label size */
