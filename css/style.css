@@ -952,8 +952,8 @@ form label {
   display: inline-block;
   /* width: 100px;
   height: 100px; */
-  width: clamp(48px, 18vw, 80px); 
-  height: clamp(48px, 18vw, 80px);
+  width: clamp(60px, 18vw, 100px); 
+  height: clamp(60px, 18vw, 100px);
   background: rgba(241, 78, 149, 0.8);
   margin: 0 4px;
   -webkit-border-radius: 50%;
@@ -981,8 +981,8 @@ form label {
   vertical-align: middle;
   /*height: 100px;
   width: 100px; */
-  width: clamp(48px, 18vw, 80px); 
-  height: clamp(48px, 18vw, 80px);
+  width: clamp(60px, 18vw, 100px); 
+  height: clamp(60px, 18vw, 100px);
 }
 
 .simply-countdown > .simply-section .simply-amount,
@@ -994,7 +994,7 @@ form label {
 
 .simply-countdown > .simply-section .simply-amount {
   /*font-size: 30px;*/
-  font-size: clamp(16px, 6vw, 26px);
+  font-size: clamp(22px, 6vw, 30px);
   /* amounts */
 }
 
@@ -1002,7 +1002,7 @@ form label {
   color: rgba(255, 255, 255, 0.7);
   text-transform: uppercase;
   /* font-size: 12px; */
-  font-size: 10px;
+  font-size: clamp(8px, 6vw, 12px);
   /* words */
 }
 
