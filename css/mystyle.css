@@ -1,0 +1,17 @@
+@media screen and (max-width: 480px) {
+  body .simply-countdown > .simply-section {
+    width: clamp(24px, 13vw, 44px) !important;
+    height: clamp(24px, 13vw, 44px) !important;
+    margin: 0 1px !important;
+  }
+  body .simply-countdown > .simply-section > div {
+    width: clamp(24px, 13vw, 44px) !important;
+    height: clamp(24px, 13vw, 44px) !important;
+  }
+  body .simply-countdown > .simply-section .simply-amount {
+    font-size: clamp(10px, 3vw, 14px) !important;
+  }
+  body .simply-countdown > .simply-section .simply-word {
+    font-size: 8px !important;
+  }
+}
