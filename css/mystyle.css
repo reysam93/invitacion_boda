@@ -24,16 +24,16 @@
   }
 }
 
-/* Countdown styles for mobile phones */
+Countdown styles for mobile phones
 @media screen and (max-width: 480px) {
   .simply-countdown > .simply-section {
-    width: 60px;      /* Circle width */
-    height: 60px;     /* Circle height */
+    width: 48px;      /* Circle width */
+    height: 48px;     /* Circle height */
     margin: 0 2px;    /* Space between circles */
   }
   .simply-countdown > .simply-section > div {
-    width: 60px;      /* Inner div width */
-    height: 60px;     /* Inner div height */
+    width: 48px;      /* Inner div width */
+    height: 48px;     /* Inner div height */
   }
   .simply-countdown > .simply-section .simply-amount {
     font-size: 13px;  /* Countdown number size */
