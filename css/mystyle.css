@@ -42,3 +42,20 @@
     font-size: 8px;   /* Countdown label size */
   }
 }
+
+#fh5co-header .btn.btn-default {
+  background: rgba(110, 5, 21, 1) !important;   /* Rojo personalizado */
+  color: #fff !important;                       /* Letras blancas */
+  border-color: rgba(110, 5, 21, 1) !important; /* Borde rojo */
+}
+
+#fh5co-header .btn.btn-default:hover,
+#fh5co-header .btn.btn-default:focus {
+  background: rgba(110, 5, 21, 0.85) !important;   /* Rojo más oscuro al pasar el ratón */
+  color: #fff !important;
+  border-color: rgba(110, 5, 21, 0.85) !important;
+}
+
+.asistencia-blanco {
+  color: #fff !important;
+}

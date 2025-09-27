@@ -13,12 +13,12 @@
 * ======================================================= */
 :root {
   /* --main-accent: #F14E95; */
-  --main-color: #a3061d;
+  --main-color: rgba(110, 5, 21);
   /* --main-color: #6e1822;  */
   /* --countdown-color: rgba(241, 78, 149, 0.8); */
-  --countdown-color: rgb(163, 6, 29, 0.8);
+  --countdown-color: rgba(110, 5, 21, 0.8);
   /* --link-color: #00BFA6; */
-  --link-color: #da9f2b;
+  --link-color: rgba(110, 5, 21);
 }
 
 
@@ -68,7 +68,7 @@ a {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 a:hover, a:active, a:focus {
   color: var(--link-color);
@@ -431,8 +431,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-counter .event-wrap,
 #fh5co-event .event-wrap {
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  background: rgba(180, 180, 180, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  background: rgba(180, 180, 180, 0.75);
   padding: 30px;
   width: 100%;
   float: left;
