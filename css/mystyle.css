@@ -1,6 +1,6 @@
 #fh5co-header.fh5co-cover {
   /* Center and cover the background image on all screens */
-  background-position: center center !important;
+  background-position: 40% center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
 }
@@ -24,7 +24,7 @@
   }
 }
 
-Countdown styles for mobile phones
+/* Countdown styles for mobile phones */
 @media screen and (max-width: 480px) {
   .simply-countdown > .simply-section {
     width: 48px;      /* Circle width */
