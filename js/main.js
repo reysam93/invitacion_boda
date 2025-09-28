@@ -78,7 +78,28 @@
 			event.preventDefault();
 
 		});
+
+		// Close mobile menu and scroll to section when clicking a menu link
+		$('#fh5co-offcanvas a[href^="#"]').on('click', function(e) {
+		var target = $(this.getAttribute('href'));
+		if (target.length) {
+			e.preventDefault();
+
+			// Close the offcanvas menu
+			$('body').removeClass('offcanvas overflow');
+			$('.js-fh5co-nav-toggle').removeClass('active');
+
+			// Wait for the menu to close, then scroll
+			setTimeout(function() {
+			$('html, body').animate({
+				scrollTop: target.offset().top
+			}, 600);
+			}, 300); // Adjust delay if needed
+		}
+		});
 	};
+
+	
 
 
 
@@ -212,7 +233,6 @@
 	var parallax = function() {
 		$(window).stellar();
 	};
-
 	
 	$(function(){
 		mobileMenuOutsideClick();
