@@ -46,7 +46,7 @@
 			'rsvp.button': 'Confirmar Asistencia',
 			'gift.title': 'Regalo',
 			'gift.description': 'Vuestra presencia en nuestro enlace es el mayor regalo que podemos recibir. Si además deseáis acompañarnos con un detalle para el comienzo de esta nueva etapa, os dejamos nuestro IBAN con todo nuestro cariño.',
-			'gift.account': '<strong>Cuenta:</strong> ES21 1465 0100 91 1751832650'
+			'gift.account': '<strong>Cuenta:</strong> ES4715447889716653488820'
 		},
 		en: {
 			'meta.title': 'Samuel & Celia Wedding',
@@ -89,7 +89,7 @@
 			'rsvp.button': 'Confirm Attendance',
 			'gift.title': 'Gift',
 			'gift.description': 'Your presence at our wedding is the greatest gift we could receive. If you would also like to contribute something as we begin this new chapter, we are leaving our IBAN here with all our love.',
-			'gift.account': '<strong>Account:</strong> ES21 1465 0100 91 1751832650'
+			'gift.account': '<strong>Account:</strong> ES4715447889716653488820'
 		}
 	};
 
