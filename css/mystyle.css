@@ -59,3 +59,40 @@
 .asistencia-blanco {
   color: #fff !important;
 }
+
+.fh5co-nav ul li.language-switcher {
+  display: inline-flex;
+  gap: 4px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.language-switcher button {
+  min-width: 34px;
+  padding: 5px 8px;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 4px;
+  background: transparent;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.language-switcher button:hover,
+.language-switcher button:focus,
+.language-switcher button.active {
+  background: #fff;
+  color: rgba(110, 5, 21, 1);
+  outline: none;
+}
+
+#fh5co-offcanvas .language-switcher {
+  display: flex;
+  gap: 8px;
+  padding: 12px 0;
+}
+
+#fh5co-offcanvas .language-switcher button {
+  border-color: rgba(255, 255, 255, 0.35);
+}
